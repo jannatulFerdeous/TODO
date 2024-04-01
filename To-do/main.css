@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kalam:wght@700&display=swap');
+
+
+
+
+*{
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+
+}
+
+.navbar{
+	background-color:#2C3539;
+	padding: 1rem 8rem;
+	z-index: 1000;
+
+}
+
+
+
+.navbar .navbar-brand{
+
+	font-size: 1.7rem; 
+	font-weight: 700;
+	color: #FF7F00;
+	
+
+}
+
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+
+	color: #ffff;
+    font-size: 1.1rem; 
+    padding: 0 1.5rem;
+
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+	 color: black;
+	 background:#ff7f00;
+	 padding: 0.2rem 1rem;
+	 border-radius: 10px;
+}
+
+
+#navbarSupportedContent > button{
+	color: white;
+	background: #FF7F00; 
+	border: none;
+	padding: 0.5rem 1.7rem;
+	border-radius: 30px;
+}
+
+
+.mid{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-content: center; 
+	text-align: center; 
+}
+
+.mid video{ 
+	width:100%;
+	height: 100%;
+	pointer-events: none; 
+	object-fit: cover; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+
+ }
+
+
+ .mid .hero{ 
+	position: relative;
+ }
+
+
+ .mid .hero p{ 
+  width:55%;
+  font-size: 21px;
+  letter-spacing: 0.2rem;
+
+ }
+
+ 
+
+.about{
+	background-color: #DC7633 ;
+}
+
+.about .text{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 50px;
+
+
+
+}
+
+
+
+.about .text h6{
+	color:#A93226; 
+	font-weight: 800; 
+	font-size: 2rem; 
+	letter-spacing: 2px;
+
+}
+
+.about .text h2{
+	color:white ;
+	font-weight: 700;
+	font-size: 2.7rem;
+}
+
+
+.about .text p{
+	color:black;
+	font-weight: 400; 
+	font-size: 1.1rem;
+	letter-spacing: 0.5px; 
+}
+.about .text a{
+	background:#111;
+	font-weight: 600; 
+	padding: 0.6rem 1.4rem; 
+	border-radius: 30px;
+	color: #fff;
+}
+
+/*=============================================================discover=====================*/
+
+.discover{
+	background-color: #F2F3F4 ;
+}
+
+.discover .text{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 50px;
+
+
+
+}
+
+
+
+.discover .text h6{
+	color:#FF7F00; 
+	font-weight: 800; 
+	font-size: 2rem; 
+	letter-spacing: 2px;
+
+}
+
+.discover .text h2{
+	color:#A93226 ;
+	font-weight: 700;
+	font-size: 2.7rem;
+}
+
+
+.discover .text p{
+	color:black;
+	font-weight: 400; 
+	font-size: 1.1rem;
+	letter-spacing: 0.5px; 
+}
+.discover .text a{
+	background:#111;
+	font-weight: 600; 
+	padding: 0.6rem 1.4rem; 
+	border-radius: 30px;
+	color: #fff;
+}
+
+.Services{
+	background: #DC7633;
+}
+
+.Services .one{
+
+	background: #ffff;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+    padding:2rem 2.5rem;
+    border-radius: 7px;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
